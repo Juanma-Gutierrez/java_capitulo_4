@@ -11,9 +11,11 @@ Vamos a ampliar uno de los ejercicios de la relación anterior para considerar l
     Ejemplo 1:
     Por favor, introduzca el número de horas trabajadas durante la semana: 36
     El sueldo semanal que le corresponde es de 432 euros
+    
     Ejemplo 2:
     Por favor, introduzca el número de horas trabajadas durante la semana: 40
     El sueldo semanal que le corresponde es de 480 euros
+    
     Ejemplo 3:
     Por favor, introduzca el número de horas trabajadas durante la semana: 55
     El sueldo semanal que le corresponde es de 720 euros
@@ -26,6 +28,7 @@ Realiza un programa que resuelva una ecuación de primer grado (del tipo ax+b = 
     Por favor, introduzca el valor de a: 2
     Ahora introduzca el valor de b: 1
     x = -0.5
+    
     Ejemplo 2:
     Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0
     Por favor, introduzca el valor de a: 0
