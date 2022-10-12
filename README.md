@@ -117,9 +117,8 @@ Escribe un programa que genere la nómina (bien desglosada) de un empleado segú
 - Se pregunta el cargo del empleado (1 - Prog. junior, 2 - Prog. senior, 3 - Jefe de proyecto), los días que ha estado de viaje visitando clientes durante el mes y su estado civil (1 - Soltero, 2 - Casado).
 - El sueldo base según el cargo es de 950, 1200 y 1600 euros según si se trata de un prog. junior, un prog. senior o un jefe de proyecto respectivamente.
 - Por cada día de viaje visitando clientes se pagan 30 euros extra en concepto de dietas. Al sueldo neto hay que restarle el IRPF, que será de un 25% en caso de estar soltero y un 20% en caso de estar casado.
-
+```
 Ejemplo:
-
 1 - Programador junior
 2 - Prog. senior
 3 - Jefe de proyecto
@@ -127,280 +126,168 @@ Introduzca el cargo del empleado (1 - 3): 2
 ¿Cuántos días ha estado de viaje visitando clientes? 5
 Introduzca su estado civil (1 - Soltero, 2 - Casado): 2
 
-----------------------------------
-| Sueldo base 1200,00 |
-| Dietas ( 5 viajes) 150,00 |
-|--------------------------------|
-| Sueldo bruto 1350,00 |
-| Retención IRPF (20%) 270,00 |
-|--------------------------------|
-| Sueldo neto 1080,00 
-----------------------------------
-
++--------------------------------+
+| Sueldo base            1200,00 |
+| Dietas ( 5 viajes)      150,00 |
++--------------------------------+
+| Sueldo bruto           1350,00 |
+| Retención IRPF (20%)    270,00 |
++--------------------------------+
+| Sueldo neto            1080,00 |
++--------------------------------+
+```
 ### Ejercicio 25
 
 La tienda online BanderaDeEspaña.es vende banderas personalizadas de la máxima calidad y nos ha pedido hacer un configurador que calcule el precio según el alto y el ancho. El precio base de una bandera es de un céntimo de euro el centímetro cuadrado. Si la queremos con un escudo bordado, el precio se incrementa en 2.50 € independientemente del tamaño. Los gastos de envío son 3.25 €. El IVA ya está incluido en todas las tarifas.
-
+```
 Ejemplo 1:
-
 Introduzca la altura de la bandera en cm: 20
-
 Ahora introduzca la anchura: 35
-
 ¿Quiere escudo bordado? (s/n): n
-
 Gracias. Aquí tiene el desglose de su compra.
-
 Bandera de 700 cm2: 7,00 €
-
 Sin escudo: 0,00 €
-
 Gastos de envío: 3,25 €
-
 Total: 10,25 €
 
 Ejemplo 2:
-
 Introduzca la altura de la bandera en cm: 10
-
 Ahora introduzca la anchura: 15
-
 ¿Quiere escudo bordado? (s/n): s
-
 Gracias. Aquí tiene el desglose de su compra.
-
 Bandera de 150 cm2: 1,50 €
-
 Con escudo: 2,50 €
-
 Gastos de envío: 3,25 €
-
 Total: 7,25 €
-
+```
 ### Ejercicio 26
-
-Ejercicio 26
-
 Realiza un programa que calcule el precio de unas entradas de cine en función del número de personas y del día de la semana. El precio base de una entradason 8 euros. El miércoles (día del espectador), el precio base es de 5 euros. Los jueves son el día de la pareja, por lo que la entrada para dos cuesta 11 euros. Con la tarjeta CineCampa se obtiene un 10% de descuento. Si un jueves, un grupo de 6 personas compran entradas, el precio total sería de 33 euros ya que son 3 parejas; pero si es un grupo de 7, pagarán 3 entradas de pareja más 1 individual que son 41 euros (33 + 8).
-
+```
 Ejemplo 1:
-
 Venta de entradas CineCampa
-
 Número de entradas: 4
-
 Día de la semana: martes
-
 ¿Tiene tarjeta CineCampa? (s/n): n
-
 Aquí tiene sus entradas. Gracias por su compra.
-
 Entradas individuales 4
-
 Precio por entrada individual 8.00 €
-
 Total 32.00 €
-
 Descuento 0.00 €
-
 A pagar 32.00 €
 
 Ejemplo 2:
-
 Venta de entradas CineCampa
-
 Número de entradas: 4
-
 Día de la semana: viernes
-
 ¿Tiene tarjeta CineCampa? (s/n): s
-
 Aquí tiene sus entradas. Gracias por su compra.
-
 Entradas individuales 4
-
 Precio por entrada individual 8.00 €
-
 Total 32.00 €
-
 Descuento 3.20 €
-
 A pagar 28.80 €
 
 Ejemplo 3:
-
 Venta de entradas CineCampa
-
 Número de entradas: 4
-
 Día de la semana: jueves
-
 ¿Tiene tarjeta CineCampa? (s/n): n
-
 Aquí tiene sus entradas. Gracias por su compra.
-
 Entradas de parejas 2
-
 Precio por entrada de pareja 11.00 €
-
 Total 22.00 €
-
 Descuento 0.00 €
-
 A pagar 22.00 €
 
 Ejemplo 4:
-
 Venta de entradas CineCampa
-
 Número de entradas: 5
-
 Día de la semana: jueves
-
 ¿Tiene tarjeta CineCampa? (s/n): s
-
 Aquí tiene sus entradas. Gracias por su compra.
-
 Entradas parejas 2
-
 Precio por entrada de pareja 11.00 €
-
 Entradas individuales 1
-
 Precio por entrada individual 8.00 €
-
 Total 30.00 €
-
 Descuento 3.00 €
-
 A pagar 27.00 €
 
 Ejemplo 5:
-
 Venta de entradas CineCampa
-
 Número de entradas: 5
-
 Día de la semana: miercoles
-
 ¿Tiene tarjeta CineCampa? (s/n): s
-
 Aquí tiene sus entradas. Gracias por su compra.
-
 Entradas individuales 5
-
 Precio por entrada individual 5.00 €
-
 Total 25.00 €
-
 Descuento 2.50 €
-
 A pagar 22.50 €
-
+```
 ### Ejercicio 27
-
 Una pastelería nos ha pedido realizar un programa que haga presupuestos de tartas. El programa preguntará primero de qué sabor quiere el usuario la tarta: manzana, fresa o chocolate. La tarta de manzana vale 18 euros y la de fresa 16. En caso de seleccionar la tarta de chocolate, el programa debe preguntar además si el chocolate es negro o blanco; la primera opción vale 14 euros y la segunda 15. Por último se pregunta si se añade nata y si se personaliza con un nombre; la nata suma 2.50 y la escritura del nombre 2.75.
 
+```
 Ejemplo 1:
-
 Elija un sabor (manzana, fresa o chocolate): chocolate
-
 ¿Qué tipo de chocolate quiere? (negro o blanco): negro
-
 ¿Quiere nata? (si o no): si
-
 ¿Quiere ponerle un nombre? (si o no): no
-
 Tarta de chocolate negro: 14,00 €
-
 Con nata: 2,50 €
-
 Total: 16,50 €
 
 Ejemplo 2:
-
 Elija un sabor (manzana, fresa o chocolate): manzana
-
 ¿Quiere nata? (si o no): no
-
 ¿Quiere ponerle un nombre? (si o no): si
-
 Tarta de manzana: 18,00 €
-
 Con nombre: 2,75 €
-
 Total: 20,75 €
 
 Ejemplo 3:
-
 Elija un sabor (manzana, fresa o chocolate): fresa
-
 ¿Quiere nata? (si o no): si
-
 ¿Quiere ponerle un nombre? (si o no): si
-
 Tarta de fresa: 16,00 €
-
 Con nata: 2,50 €
-
 Con nombre: 2,75 €
-
 Total: 21,25 €
-
+```
 ### Ejercicio 28
-
 Implementa el juego piedra, papel y tijera. Primero, el usuario 1 introduce su jugada y luego el usuario 2. Si alguno de los usuarios introduce una opción incorrecta, el programa deberá mostrar un mensaje de error.
-
+```
 Ejemplo 1:
-
 Turno del jugador 1 (introduzca piedra, papel o tijera): papel
-
 Turno del jugador 2 (introduzca piedra, papel o tijera): papel
-
 Empate
 
 Ejemplo 2:
-
 Turno del jugador 1 (introduzca piedra, papel o tijera): papel
-
 Turno del jugador 2 (introduzca piedra, papel o tijera): tijera
-
 Gana el jugador 2
 
 Ejemplo 3:
-
 Turno del jugador 1 (introduzca piedra, papel o tijera): piedra
-
 Turno del jugador 2 (introduzca piedra, papel o tijera): tijera
-
 Gana el jugador 1
-
+```
 ### Ejercicio 29
-
 Realiza un programa que calcule el precio de un desayuno. El programa preguntará primero qué ha tomado el usuario de comer: palmera, donut o pitufo. La palmera vale 1.40 € y el donut 1 €. En caso de tomar pitufo, el programa debe preguntar además si era con aceite o con tortilla; el primero vale 1’20 € y el segundo 1’60 €. Por último se pregunta por la bebida: zumo o café a 1’50 y 1’20 respectivamente.
-
+```
 Ejemplo 1:
-
 ¿Qué ha tomado de comer? (palmera, donut o pitufo): palmera
-
 ¿Qué ha tomado de beber? (zumo o café): café
-
 Palmera: 1,40 €
-
 Café: 1,20 €
-
 Total desayuno: 2,60 €
 
 Ejemplo 2:
-
 ¿Qué ha tomado de comer? (palmera, donut o pitufo): pitufo
-
 ¿Con qué se ha tomado el pitufo? (aceite o tortilla): tortilla
-
 ¿Qué ha tomado de beber? (zumo o café): zumo
-
 Pitufo con tortilla: 1,60 €
-
 Zumo: 1,50 €
-
 Total desayuno: 3,10 €
+```
