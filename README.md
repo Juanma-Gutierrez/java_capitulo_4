@@ -1,6 +1,6 @@
 # java_capitulo_4
 
-Soluciones a los ejercicios del capítulo 4 del libro **Aprende Java con ejercicios** de Luis José Sánchez (*Edición 2019*).
+Soluciones a los ejercicios del libro **Aprende Java con ejercicios** de Luis José Sánchez (*Edición 2019*).
 
 Este libro está a la venta en https://leanpub.com/aprendejava
 
