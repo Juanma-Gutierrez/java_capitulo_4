@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+/**
+ * Exercise: 8
+ *
+ * @version: 12/10/2022 14:37
+ * @author: Juan Manuel Gutiérrez
+ *          https://github.com/Juanma-Gutierrez
+ */
+
+public class Ejercicio8 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float num1;
+        float num2;
+        float num3;
+        float res;
+        System.out.print("Introduce la primera nota: ");
+        num1 = sc.nextFloat();
+        System.out.print("Introduce la segunda nota: ");
+        num2 = sc.nextFloat();
+        System.out.print("Introduce la tercera nota: ");
+        num3 = sc.nextFloat();
+        res = (num1 + num2 + num3) / 3;
+        System.out.print(
+                "La nota media de " + num1 + ", " + num2 + " y " + num3 + " es: "
+                        + String.format("%.2f", res) + ", es decir: ");
+        if (res < 5)
+            System.out.println("Insuficiente");
+        else if (res < 6)
+            System.out.println("Suficiente");
+        else if (res < 7)
+            System.out.println("Bien");
+        else if (res < 9)
+            System.out.println("Notable");
+        else if (res <= 10)
+            System.out.println("Sobresaliente");
+        sc.close();
+    }
+}
