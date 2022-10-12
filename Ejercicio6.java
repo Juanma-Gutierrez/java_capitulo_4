@@ -15,7 +15,7 @@ public class Ejercicio6 {
         float res;
         System.out.print("Introduce la altura: ");
         h = sc.nextInt();
-        res = (float) Math.pow(2 * h / 9.81, 2);
+        res = (float) Math.sqrt(2 * h / 9.81);
         System.out.print("El tiempo en caer desde una altura " + h + " es de "
                 + String.format("%.2f", res));
         sc.close();
