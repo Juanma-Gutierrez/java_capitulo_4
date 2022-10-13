@@ -185,9 +185,30 @@ Puntuación obtenida: 6
 
 Escribe un programa que ordene tres números enteros introducidos por teclado.
 
+```
+Introduce el primer número: 20
+Introduce el segundo número: 15
+Introduce el tercer número: 18
+Los números ordenados quedan así: 15, 18, 20
+```
+
 ### Ejercicio 14
 
 Realiza un programa que diga si un número introducido por teclado es par y/o divisible entre 5.
+
+```
+Introduce un número: 5
+5 es impar y divisible entre 5
+
+Introduce un número: 6
+6 es par y NO es divisible entre 5
+
+Introduce un número: 7
+7 es impar y NO es divisible entre 5
+
+Introduce un número: 8
+8 es par y NO es divisible entre 5
+```
 
 ### Ejercicio 15
 
