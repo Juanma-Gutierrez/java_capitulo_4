@@ -15,15 +15,8 @@ public class Ejercicio19 {
         int cont;
         System.out.print("Introduce un número: ");
         num = sc.nextInt();
-        cont = 0;
-        if (num < 0)
-            num *= (-1);
-        do {
-            num /= 10;
-            cont++;
-
-        } while (num > 0);
-        System.out.print(cont);
+        cont = Integer.toString(Math.abs(num)).length();
+        System.out.print(num + " tiene " + cont + " dígitos");
         sc.close();
     }
 }
