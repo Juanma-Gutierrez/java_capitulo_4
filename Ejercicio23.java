@@ -65,7 +65,6 @@ public class Ejercicio23 {
         System.out.println();
         System.out.printf("%-22s", "TOTAL");
         System.out.printf("%5.2f", baseImp + (baseImp * iva / 100) + discount);
-        System.out.println();
 
         sc.close();
     }

@@ -440,11 +440,11 @@ Escribe un programa que calcule el precio final de un producto según su base im
     Introduzca la base imponible: 25
     Introduzca el tipo de IVA (general, reducido o superreducido): reducido
     Introduzca el código promocional (nopro, mitad, meno5 o 5porc): mitad
-    Base imponible 25.00
-    IVA (10%) 2.50
-    Precio con IVA 27.50
-    Cód. promo. (mitad): -13.75
-    TOTAL 13.75
+    Base imponible          25.00
+    IVA (10%)                2.50
+    Precio con IVA          27.50
+    Cód. promo. (mitad):   -13.75
+    TOTAL                   13.75
 
 ### Ejercicio 24
 
