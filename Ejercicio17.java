@@ -14,7 +14,10 @@ public class Ejercicio17 {
         int num;
         System.out.print("Introduce un número entero: ");
         num = sc.nextInt();
-        System.out.print("El último dígito del número introducido es " + num % 10);
+        if (num >= 0)
+            System.out.print("El último dígito de " + num + " es " + num % 10);
+        else
+            System.out.print("El último dígito de " + num + " es " + num % 10 * -1 + " y es negativo");
         sc.close();
     }
 }

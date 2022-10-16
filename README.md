@@ -214,6 +214,56 @@ Introduce un número: 8
 
 Escribe un programa que pinte una pirámide rellena con un carácter introducido por teclado que podrá ser una letra, un número o un símbolo como \*, +, -, $, &, etc. El programa debe permitir al usuario mediante un menú elegir si el vértice de la pirámide está apuntando hacia arriba, hacia abajo, hacia la izquierda o hacia la derecha.
 
+```
+Introduce la dirección de la pirámide:
+1: Arriba
+2: Derecha
+3: Abajo
+4: Izquierda
+1
+Introduce el caracter que deseas para la pirámide: @
+  @
+ @@@
+@@@@@
+
+Introduce la dirección de la pirámide:
+1: Arriba
+2: Derecha
+3: Abajo
+4: Izquierda
+2
+Introduce el caracter que deseas para la pirámide: *
+*
+**
+***
+**
+*
+
+Introduce la dirección de la pirámide:
+1: Arriba
+2: Derecha
+3: Abajo
+4: Izquierda
+3
+Introduce el caracter que deseas para la pirámide: X
+XXXXX
+ XXX
+  X
+
+Introduce la dirección de la pirámide:
+1: Arriba
+2: Derecha
+3: Abajo
+4: Izquierda
+4
+Introduce el caracter que deseas para la pirámide: <
+  <
+ <<
+<<<
+ <<
+  <
+```
+
 ### Ejercicio 16
 
 Realiza un programa que nos diga si hay probabilidad de que nuestra pareja nos está siendo infiel. El programa irá haciendo preguntas que el usuario contestará con verdadero o falso. Cada pregunta contestada como verdadero sumará 3 puntos. Las preguntas contestadas con falso no suman puntos. A continuación se listan las preguntas del test.
@@ -235,13 +285,59 @@ A continuación se muestran los mensajes que deberá dar el programa según la p
 -   Puntuación entre 11 y 22: Quizás exista el peligro de otra persona en su vida o en su mente, aunque seguramente será algo sin importancia. No bajes la guardia.
 -   Puntuación entre 22 y 30: Tu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona. Te aconsejamos que indagues un poco más y averigües que es lo que está pasando por su cabeza.
 
+```
+Test de infidelidad. Contesta a cada pregunta con v para verdadero o f para falso
+---------------------------------------------------------------------------------
+Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente (v/f): f
+Ha aumentado sus gastos de vestuario (v/f): f
+Ha perdido el interés que mostraba anteriormente por ti (v/f): f
+Ahora se afeita y se asea con más frecuencia (si es hombre) o ahora se arregla el pelo y se asea con más frecuencia (si es mujer) (v/f): f
+No te deja que mires la agenda de su teléfono móvil (v/f): f
+A veces tiene llamadas que dice no querer contestar cuando estás tú delante (v/f): f
+Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a (v/f): f
+Muchos días viene tarde después de trabajar porque dice tener mucho más trabajo (v/f): f
+Has notado que últimamente se perfuma más (v/f): f
+Se confunde y te dice que ha estado en sitios donde no ha ido contigo (v/f): f
+¡Enhorabuena! tu pareja parece ser totalmente fiel.
+
+Test de infidelidad. Contesta a cada pregunta con v para verdadero o f para falso
+---------------------------------------------------------------------------------
+Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente (v/f): v
+Ha aumentado sus gastos de vestuario (v/f): v
+Ha perdido el interés que mostraba anteriormente por ti (v/f): v
+Ahora se afeita y se asea con más frecuencia (si es hombre) o ahora se arregla el pelo y se asea con más frecuencia (si es mujer) (v/f): v
+No te deja que mires la agenda de su teléfono móvil (v/f): v
+A veces tiene llamadas que dice no querer contestar cuando estás tú delante (v/f): v
+Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a (v/f): v
+Muchos días viene tarde después de trabajar porque dice tener mucho más trabajo (v/f): v
+Has notado que últimamente se perfuma más (v/f): v
+Se confunde y te dice que ha estado en sitios donde no ha ido contigo (v/f): v
+Tu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona. Te aconsejamos que indagues un poco más y averigües que es lo que está pasando por su cabeza.
+```
+
 ### Ejercicio 17
 
 Escribe un programa que diga cuál es la última cifra de un número entero introducido por teclado.
 
+```
+Introduce un número entero: 1234
+El último dígito de 1234 es 4
+
+Introduce un número entero: -1234
+El último dígito de -1234 es 4 y es negativo
+```
+
 ### Ejercicio 18
 
 Escribe un programa que diga cuál es la primera cifra de un número entero introducido por teclado. Se permiten números de hasta 5 cifras.
+
+```
+Introduce un número entero: 1234
+El primer dígito de 1234 es 1
+
+Introduce un número entero: -1234
+El primer dígito de -1234 es 1
+```
 
 ### Ejercicio 19
 
@@ -257,6 +353,7 @@ Introduce un número: -1234
 Introduce un número: 123456
 El número introducido tiene más de 5 dígitos
 ```
+
 ### Ejercicio 20
 
 Realiza un programa que diga si un número entero positivo introducido por teclado es capicúa. Se permiten números de hasta 5 cifras.
