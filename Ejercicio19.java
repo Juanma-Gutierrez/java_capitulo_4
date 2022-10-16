@@ -16,7 +16,10 @@ public class Ejercicio19 {
         System.out.print("Introduce un número: ");
         num = sc.nextInt();
         cont = Integer.toString(Math.abs(num)).length();
-        System.out.print(num + " tiene " + cont + " dígitos");
+        System.out
+                .print(cont > 5 ? "El número introducido tiene más de 5 dígitos" : num + " tiene " + cont + " dígitos");
+        if (num < 0)
+            System.out.print(" y es negativo");
         sc.close();
     }
 }

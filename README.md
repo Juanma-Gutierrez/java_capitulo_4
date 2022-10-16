@@ -247,9 +247,33 @@ Escribe un programa que diga cuál es la primera cifra de un número entero intr
 
 Realiza un programa que nos diga cuántos dígitos tiene un número entero que puede ser positivo o negativo. Se permiten números de hasta 5 dígitos.
 
+```
+Introduce un número: 1234
+1234 tiene 4 dígitos
+
+Introduce un número: -1234
+-1234 tiene 4 dígitos y es negativo
+
+Introduce un número: 123456
+El número introducido tiene más de 5 dígitos
+```
 ### Ejercicio 20
 
 Realiza un programa que diga si un número entero positivo introducido por teclado es capicúa. Se permiten números de hasta 5 cifras.
+
+```
+Introduce un número entero de hasta 5 dígitos de tamaño: 12345
+12345 no es capicúa
+
+Introduce un número entero de hasta 5 dígitos de tamaño: 12321
+12321 es capicúa
+
+Introduce un número entero de hasta 5 dígitos de tamaño: -12321
+-12321 es capicúa y de signo negativo
+
+Introduce un número entero de hasta 5 dígitos de tamaño: 123456
+Has introducido un número mayor de 5 dígitos
+```
 
 ### Ejercicio 21
 
