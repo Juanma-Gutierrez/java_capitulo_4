@@ -24,7 +24,7 @@ public class Ejercicio25 {
         emblem = sc.next();
         System.out.println("Gracias. Aquí tiene el desglose de su compra.");
         System.out.printf("%-10s %5d %-8s %7.2f\n", "Bandera de", (height * width), "cm²:",
-                (float) (height * width / 100));
+                ((float) height * (float) width / 100));
         if (emblem.equals("s")) {
             costEmblem = (float) 2.50;
             System.out.printf("%-25s %7.2f\n", "Con escudo:", costEmblem);
@@ -33,7 +33,7 @@ public class Ejercicio25 {
             System.out.printf("%-25s %7.2f\n", "Sin escudo:", costEmblem);
         }
         System.out.printf("%-25s %7.2f\n", "Gastos de envío:", 3.25);
-        System.out.printf("%-25s %7.2f\n", "Total:", ((height * width / 100) + costEmblem + 3.25));
+        System.out.printf("%-25s %7.2f\n", "Total:", (((float) height * (float) width / 100) + costEmblem + 3.25));
 
         sc.close();
     }
