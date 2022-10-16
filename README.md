@@ -8,13 +8,34 @@ Este libro está a la venta en https://leanpub.com/aprendejava
 
 Escribe un programa que pida por teclado un día de la semana y que diga qué asignatura toca a primera hora ese día.
 
+```
+Introduce un día de la semana:
+1: Lunes
+2: Martes
+3: Miércoles
+4: Jueves
+5: Viernes
+1
+El día 1 de la semana toca Programación
+```
+
 ### Ejercicio 2
 
 Realiza un programa que pida una hora por teclado y que muestre luego buenos días, buenas tardes o buenas noches según la hora. Se utilizarán los tramos de 6 a 12, de 13 a 20 y de 21 a 5 respectivamente. Sólo se tienen en cuenta las horas, los minutos no se deben introducir por teclado.
 
+```
+Introduce la hora (0-23): 10
+Buenos días
+```
+
 ### Ejercicio 3
 
 Escribe un programa en que dado un número del 1 a 7 escriba el correspondiente nombre del día de la semana.
+
+```
+Introduce un número (1-7): 5
+El día 5 de la semana es: Viernes
+```
 
 ### Ejercicio 4
 
@@ -52,37 +73,142 @@ Realiza un programa que resuelva una ecuación de primer grado (del tipo ax+b = 
 
 Realiza un programa que calcule el tiempo que tardará en caer un objeto desde una altura h. Aplica la fórmula t =√2h/g siendo g = 9.81m/s2
 
+```
+Introduce la altura: 10
+El tiempo en caer desde una altura 10.0 es de 1,43
+```
+
 ### Ejercicio 7
 
 Realiza un programa que calcule la media de tres notas.
+
+```
+Introduce la primera nota: 7
+Introduce la segunda nota: 8
+Introduce la tercera nota: 10
+La nota media de 7.0, 8.0 y 10.0 es: 8,33
+```
 
 ### Ejercicio 8
 
 Amplía el programa anterior para que diga la nota del boletín (insuficiente, suficiente, bien, notable o sobresaliente).
 
+```
+Introduce la primera nota: 7
+Introduce la segunda nota: 8
+Introduce la tercera nota: 10
+La nota media de 7.0, 8.0 y 10.0 es: 8,33, es decir: Notable
+```
+
 ### Ejercicio 9
 
 Realiza un programa que resuelva una ecuación de segundo grado (del tipo ax2 + bx + c = 0).
+
+```
+Introduce el valor de a: 1
+Introduce el valor de b: -5
+Introduce el valor de c: 6
+x1 = 3.0
+x2 = 2.0
+```
 
 ### Ejercicio 10
 
 Escribe un programa que nos diga el horóscopo a partir del día y el mes de nacimiento.
 
+```
+Introduce el día de nacimiento: 13
+Introduce el número del mes de nacimiento:
+10
+El signo zodiacal para alguien nacido el 13/10 es: Libra
+```
+
 ### Ejercicio 11
 
 Escribe un programa que dada una hora determinada (horas y minutos), calcule los segundos que faltan para llegar a la medianoche.
+
+```
+Introduce la hora: 10
+Introduce los minutos: 30
+Segundos hasta medianoche: 48600
+```
 
 ### Ejercicio 12
 
 Realiza un minicuestionario con 10 preguntas tipo test sobre las asignaturas que se imparten en el curso. Cada pregunta acertada sumará un punto. El programa mostrará al final la calificación obtenida. Pásale el minicuestionario a tus compañeros y pídeles que lo hagan para ver qué tal andan de conocimientos en las diferentes asignaturas del curso.
 
+```
+1- A los elementos físicos de un ordenador los llamamos:
+1: Hardware
+2: Software
+1
+2- ¿Qué es un algoritmo?:
+1: Una función / operación matemática con un resultado exacto
+2: Un conjunto de órdenes que describen cómo resolver un problema
+1
+3- ¿Qué es un lenguaje de bajo nivel?:
+1: El lenguaje de programación que no dispone de clases ni funciones
+2: El más cercano al ordenador, depende de la arquitectura de la máquina
+1
+4- ¿De qué nivel es el lenguaje Cobol?:
+1: Bajo nivel
+2: Alto nivel
+1
+5- ¿En qué generación se define el Modelo Relacional de BBDD?:
+1: 3ª Generación
+2: 4ª Generación
+1
+6- ¿Qué modelo es más productivo?:
+1: Modelo en Cascada
+2: Modelo en Cascada con Realimentación
+1
+7- ¿Cuál es el comando para listar los commits realizados en git?:
+1: git log
+2: git list
+1
+8- ¿Cuál es el comando para eliminar un archivo de git?:
+1: git rm <archivo> --cached
+2: git remove <archivo> -force
+1
+9- ¿Cuál es el comando para realizar un commit?:
+1: git commit -m 'commit'
+2: git commit -c 'commit'
+1
+10- ¿Tenemos la tabla empleado y la tabla departamentos. Un empleado puede estar asignado únicamente a un departamento. Un departamento puede tener muchos empleados. ¿En qué tabla iría la Foreign Key?:
+1: Tabla empleado
+2: Tabla departamento
+1
+Puntuación obtenida: 6
+```
+
 ### Ejercicio 13
 
 Escribe un programa que ordene tres números enteros introducidos por teclado.
 
+```
+Introduce el primer número: 20
+Introduce el segundo número: 15
+Introduce el tercer número: 18
+Los números ordenados quedan así: 15, 18, 20
+```
+
 ### Ejercicio 14
 
 Realiza un programa que diga si un número introducido por teclado es par y/o divisible entre 5.
+
+```
+Introduce un número: 5
+5 es impar y divisible entre 5
+
+Introduce un número: 6
+6 es par y NO es divisible entre 5
+
+Introduce un número: 7
+7 es impar y NO es divisible entre 5
+
+Introduce un número: 8
+8 es par y NO es divisible entre 5
+```
 
 ### Ejercicio 15
 
