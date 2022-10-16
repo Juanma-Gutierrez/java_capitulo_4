@@ -397,6 +397,41 @@ Calcula la nota de un trimestre de la asignatura Programación. El programa pedi
 
 Realiza un programa que, dado un día de la semana (de lunes a viernes) y una hora (horas y minutos), calcule cuántos minutos faltan para el fin de semana. Se considerará que el fin de semana comienza el viernes a las 15:00h. Se da por hecho que el usuario introducirá un día y hora correctos, anterior al viernes a las 15:00h.
 
+```
+Introduce el día de la semana:
+1: Lunes
+2: Martes
+3: Miércoles
+4: Jueves
+5: Viernes
+4
+Introduce la hora (0-23): 10
+Introduce los minutos (0-59): 30
+Faltan 1710 minutos para el fin de semana
+
+Introduce el día de la semana:
+1: Lunes
+2: Martes
+3: Miércoles
+4: Jueves
+5: Viernes
+5
+Introduce la hora (0-23): 14
+Introduce los minutos (0-59): 45
+Faltan 15 minutos para el fin de semana
+
+Introduce el día de la semana:
+1: Lunes
+2: Martes
+3: Miércoles
+4: Jueves
+5: Viernes
+5
+Introduce la hora (0-23): 16
+Introduce los minutos (0-59): 00
+Ya estás en fin de semana
+```
+
 ### Ejercicio 23
 
 Escribe un programa que calcule el precio final de un producto según su base imponible (precio antes de impuestos), el tipo de IVA aplicado (general, reducido o superreducido) y el código promocional. Los tipos de IVA general, reducido y superreducido son del 21%, 10% y 4% respectivamente. Los códigos promocionales pueden ser nopro, mitad, meno5 o 5porc que significan respectivamente que no se aplica promoción, el precio se reduce a la mitad, se descuentan 5 euros o se descuenta el 5%. El ejercicio se da por bueno si se muestran los valores correctos, aunque los números no estén tabulados.
