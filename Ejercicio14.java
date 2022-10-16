@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/**
+ * Exercise: 14
+ * 
+ * @version: 13/10/2022 14:25
+ * @author: Juan Manuel Gutiérrez
+ *          https://github.com/Juanma-Gutierrez
+ */
+
+public class Ejercicio14 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num;
+        System.out.print("Introduce un número: ");
+        num = sc.nextInt();
+        if (num % 2 == 0)
+            if (num % 5 == 0)
+                System.out.print(num + " es par y divisible entre 5");
+            else
+                System.out.print(num + " es par y NO es divisible entre 5");
+        else if (num % 5 == 0)
+            System.out.print(num + " es impar y divisible entre 5");
+        else
+            System.out.print(num + " es impar y NO es divisible entre 5");
+        sc.close();
+    }
+}
