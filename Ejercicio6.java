@@ -15,9 +15,12 @@ public class Ejercicio6 {
         float res;
         System.out.print("Introduce la altura: ");
         h = sc.nextInt();
-        res = (float) Math.sqrt(2 * h / 9.81);
-        System.out.print("El tiempo en caer desde una altura " + h + " es de "
-                + String.format("%.2f", res));
+        if (h >= 0) {
+            res = (float) Math.sqrt(2 * h / 9.81);
+            System.out.print("El tiempo en caer desde una altura " + h + " es de "
+                    + String.format("%.2f", res));
+        } else
+            System.out.print("No es posible indicar una altura negativa");
         sc.close();
     }
 }

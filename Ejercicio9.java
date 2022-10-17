@@ -21,10 +21,16 @@ public class Ejercicio9 {
         b = sc.nextInt();
         System.out.print("Introduce el valor de c: ");
         c = sc.nextInt();
-        res = (float) ((-b + Math.sqrt(b * b - (4 * a * c))) / (2 * a));
-        System.out.println("x1 = " + res);
-        res = (float) ((-b - Math.sqrt(b * b - (4 * a * c))) / (2 * a));
-        System.out.println("x2 = " + res);
+        float raiz;
+        raiz = (b * b - (4 * a * c));
+        if (raiz >= 0 && 2 * a != 0) {
+            res = (float) ((-b + (float) Math.sqrt(raiz)) / (2 * a));
+            System.out.printf("x1 = %.2f\n", res);
+            res = (float) ((-b - (float) Math.sqrt(raiz)) / (2 * a));
+            System.out.printf("x2 = %.2f\n", res);
+        } else {
+            System.out.print("La ecuación no tiene solución real");
+        }
         sc.close();
     }
 }
