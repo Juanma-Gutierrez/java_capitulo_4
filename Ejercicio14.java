@@ -2,10 +2,15 @@ import java.util.Scanner;
 
 /**
  * Exercise: 14
- * 
+ *
  * @version: 13/10/2022 14:25
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
+ */
+
+/*
+ * Realiza un programa que diga si un número introducido por teclado es par y/o
+ * divisible entre 5.
  */
 
 public class Ejercicio14 {

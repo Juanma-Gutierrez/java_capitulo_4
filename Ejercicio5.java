@@ -8,6 +8,11 @@ import java.util.Scanner;
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Realiza un programa que resuelva una ecuación de primer grado (del tipo ax+b
+ * = 0).
+ */
+
 public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

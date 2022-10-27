@@ -8,6 +8,11 @@ import java.util.Scanner;
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que dada una hora determinada (horas y minutos), calcule
+ * los segundos que faltan para llegar a la medianoche.
+ */
+
 public class Ejercicio11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

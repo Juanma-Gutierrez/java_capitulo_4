@@ -8,6 +8,10 @@ import java.util.Scanner;
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Realiza un programa que calcule la media de tres notas.
+ */
+
 public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

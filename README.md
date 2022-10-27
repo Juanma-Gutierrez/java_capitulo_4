@@ -41,33 +41,37 @@ El día 5 de la semana es: Viernes
 
 Vamos a ampliar uno de los ejercicios de la relación anterior para considerar las horas extras. Escribe un programa que calcule el salario semanal de un trabajador teniendo en cuenta que las horas ordinarias (40 primeras horas de trabajo) se pagan a 12 euros la hora. A partir de la hora 41, se pagan a 16 euros la hora.
 
-    Ejemplo 1:
-    Por favor, introduzca el número de horas trabajadas durante la semana: 36
-    El sueldo semanal que le corresponde es de 432 euros
+```
+Ejemplo 1:
+Por favor, introduzca el número de horas trabajadas durante la semana: 36
+El sueldo semanal que le corresponde es de 432 euros
 
-    Ejemplo 2:
-    Por favor, introduzca el número de horas trabajadas durante la semana: 40
-    El sueldo semanal que le corresponde es de 480 euros
+Ejemplo 2:
+Por favor, introduzca el número de horas trabajadas durante la semana: 40
+El sueldo semanal que le corresponde es de 480 euros
 
-    Ejemplo 3:
-    Por favor, introduzca el número de horas trabajadas durante la semana: 55
-    El sueldo semanal que le corresponde es de 720 euros
+Ejemplo 3:
+Por favor, introduzca el número de horas trabajadas durante la semana: 55
+El sueldo semanal que le corresponde es de 720 euros
+```
 
 ### Ejercicio 5
 
 Realiza un programa que resuelva una ecuación de primer grado (del tipo ax+b = 0).
 
-    Ejemplo 1:
-    Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0
-    Por favor, introduzca el valor de a: 2
-    Ahora introduzca el valor de b: 1
-    x = -0.5
+```
+Ejemplo 1:
+Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0
+Por favor, introduzca el valor de a: 2
+Ahora introduzca el valor de b: 1
+x = -0.5
 
-    Ejemplo 2:
-    Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0
-    Por favor, introduzca el valor de a: 0
-    Ahora introduzca el valor de b: 7
-    Esa ecuación no tiene solución real.
+Ejemplo 2:
+Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0
+Por favor, introduzca el valor de a: 0
+Ahora introduzca el valor de b: 7
+Esa ecuación no tiene solución real.
+```
 
 ### Ejercicio 6
 
@@ -376,22 +380,24 @@ Has introducido un número mayor de 5 dígitos
 
 Calcula la nota de un trimestre de la asignatura Programación. El programa pedirá las dos notas que ha sacado el alumno en los dos primeros controles. Si la media de los dos controles da un número mayor o igual a 5, el alumno está aprobado y se mostrará la media. En caso de que la media sea un número menor que 5, el alumno habrá tenido que hacer el examen de recuperación que se califica como apto o no apto, por tanto se debe preguntar al usuario ¿Cuál ha sido el resultado de la recuperación? (apto/no apto). Si el resultado de la recuperación es apto, la nota será un 5; en caso contrario, se mantiene la nota media anterior.
 
-    Ejemplo 1:
-    Nota del primer control: 7
-    Nota del segundo control: 10
-    Tu nota de Programación es 8.5
+```
+Ejemplo 1:
+Nota del primer control: 7
+Nota del segundo control: 10
+Tu nota de Programación es 8.5
 
-    Ejemplo 2:
-    Nota del primer control: 6
-    Nota del segundo control: 3
-    ¿Cuál ha sido el resultado de la recuperación? (apto/no apto): apto
-    Tu nota de Programación es 5
+Ejemplo 2:
+Nota del primer control: 6
+Nota del segundo control: 3
+¿Cuál ha sido el resultado de la recuperación? (apto/no apto): apto
+Tu nota de Programación es 5
 
-    Ejemplo 3:
-    Nota del primer control: 6
-    Nota del segundo control: 3
-    ¿Cuál ha sido el resultado de la recuperación? (apto/no apto): no apto
-    Tu nota de Programación es 4.5
+Ejemplo 3:
+Nota del primer control: 6
+Nota del segundo control: 3
+¿Cuál ha sido el resultado de la recuperación? (apto/no apto): no apto
+Tu nota de Programación es 4.5
+```
 
 ### Ejercicio 22
 
@@ -436,15 +442,17 @@ Ya estás en fin de semana
 
 Escribe un programa que calcule el precio final de un producto según su base imponible (precio antes de impuestos), el tipo de IVA aplicado (general, reducido o superreducido) y el código promocional. Los tipos de IVA general, reducido y superreducido son del 21%, 10% y 4% respectivamente. Los códigos promocionales pueden ser nopro, mitad, meno5 o 5porc que significan respectivamente que no se aplica promoción, el precio se reduce a la mitad, se descuentan 5 euros o se descuenta el 5%. El ejercicio se da por bueno si se muestran los valores correctos, aunque los números no estén tabulados.
 
-    Ejemplo:
-    Introduzca la base imponible: 25
-    Introduzca el tipo de IVA (general, reducido o superreducido): reducido
-    Introduzca el código promocional (nopro, mitad, meno5 o 5porc): mitad
-    Base imponible          25.00
-    IVA (10%)                2.50
-    Precio con IVA          27.50
-    Cód. promo. (mitad):   -13.75
-    TOTAL                   13.75
+```
+Ejemplo:
+Introduzca la base imponible: 25
+Introduzca el tipo de IVA (general, reducido o superreducido): reducido
+Introduzca el código promocional (nopro, mitad, meno5 o 5porc): mitad
+Base imponible  25.00
+IVA (10%)2.50
+Precio con IVA  27.50
+Cód. promo. (mitad):   -13.75
+TOTAL   13.75
+```
 
 ### Ejercicio 24
 

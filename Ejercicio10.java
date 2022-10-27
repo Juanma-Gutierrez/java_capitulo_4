@@ -8,6 +8,11 @@ import java.util.Scanner;
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que nos diga el horóscopo a partir del día y el mes de
+ * nacimiento.
+ */
+
 public class Ejercicio10 {
     public static void main(String[] arg) {
         Scanner sc = new Scanner(System.in);

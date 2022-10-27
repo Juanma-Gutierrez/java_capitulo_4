@@ -8,6 +8,11 @@ import java.util.Scanner;
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Amplía el programa anterior para que diga la nota del boletín (insuficiente,
+ * suficiente, bien, notable o sobresaliente).
+ */
+
 public class Ejercicio8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

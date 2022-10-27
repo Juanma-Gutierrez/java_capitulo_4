@@ -8,6 +8,11 @@ import java.util.Scanner;
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Realiza un programa que resuelva una ecuación de segundo grado (del tipo
+ * ax2 + bx + c = 0).
+ */
+
 public class Ejercicio9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

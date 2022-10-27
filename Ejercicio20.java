@@ -8,6 +8,11 @@ import java.util.Scanner;
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Realiza un programa que diga si un número entero positivo introducido por
+ * teclado es capicúa. Se permiten números de hasta 5 cifras.
+ */
+
 public class Ejercicio20 {
     public static void main(String[] args) {
 

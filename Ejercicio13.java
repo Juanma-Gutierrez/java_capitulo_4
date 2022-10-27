@@ -2,10 +2,14 @@ import java.util.Scanner;
 
 /**
  * Exercise: 13
- * 
+ *
  * @version: 13/10/2022 14:18
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
+ */
+
+/*
+ * Escribe un programa que ordene tres números enteros introducidos por teclado.
  */
 
 public class Ejercicio13 {
