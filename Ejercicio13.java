@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Exercise: 13
  *
- * @version: 13/10/2022 14:18
+ * @version: 13/10/2022
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */
