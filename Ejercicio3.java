@@ -15,11 +15,18 @@ import java.util.Scanner;
 
 public class Ejercicio3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
         String msg;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número (1-7): ");
         num = sc.nextInt();
+
+        // Process
         switch (num) {
             case 1:
                 msg = "El día 1 de la semana es: Lunes";
@@ -46,7 +53,11 @@ public class Ejercicio3 {
                 msg = "Has introducido un número no válido";
                 break;
         }
+
+        // Output results
         System.out.println(msg);
+
+        // Close scanner
         sc.close();
     }
 }

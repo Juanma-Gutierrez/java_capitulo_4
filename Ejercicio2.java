@@ -17,10 +17,17 @@ import java.util.Scanner;
 
 public class Ejercicio2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int hour;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce la hora (0-23): ");
         hour = sc.nextInt();
+
+        // Process
         if (hour < 0 || hour > 23)
             System.out.print("Has introducido una hora no válida");
         else if (hour >= 21 || hour <= 5)
@@ -29,6 +36,8 @@ public class Ejercicio2 {
             System.out.print("Buenas tardes");
         else if (hour >= 6)
             System.out.print("Buenos días");
+
+        // Close scanner
         sc.close();
     }
 }

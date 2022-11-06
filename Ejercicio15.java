@@ -28,9 +28,14 @@ public class Ejercicio15 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         String symb;
         int dir;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.println("Introduce la dirección de la pirámide:");
         System.out.println("1: Arriba");
         System.out.println("2: Derecha");
@@ -39,6 +44,8 @@ public class Ejercicio15 {
         dir = sc.nextInt();
         System.out.print("Introduce el caracter que deseas para la pirámide: ");
         symb = sc.next();
+
+        // Process
         switch (dir) {
             case 1:
                 printSymbol(symb, 2, 1);
@@ -68,6 +75,7 @@ public class Ejercicio15 {
                 System.out.print("Has introducido una dirección no válida");
         }
 
+        // Close scanner
         sc.close();
     }
 }

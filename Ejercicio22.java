@@ -18,13 +18,20 @@ import java.util.Scanner;
 
 public class Ejercicio22 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int day;
         int hour;
         int min;
         int minAcum;
         int numDays;
+
+        // Var init
         numDays = 0;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.println("Introduce el día de la semana:");
         System.out.println("1: Lunes");
         System.out.println("2: Martes");
@@ -36,6 +43,8 @@ public class Ejercicio22 {
         hour = sc.nextInt();
         System.out.print("Introduce los minutos (0-59): ");
         min = sc.nextInt();
+
+        // Process
         switch (day) {
             case 1:
                 numDays = 4;
@@ -55,8 +64,11 @@ public class Ejercicio22 {
         }
         minAcum = (60 - min) + (((numDays * 24) + (15 - hour - 1)) * 60);
 
+        // Output results
         System.out.print(
                 (minAcum > 0) ? "Faltan " + minAcum + " minutos para el fin de semana" : "Ya estás en fin de semana");
+
+        // Close scanner
         sc.close();
     }
 }

@@ -15,9 +15,14 @@ import java.util.Scanner;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int day;
         String subject;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.println("Introduce un día de la semana: ");
         System.out.println("1: Lunes");
         System.out.println("2: Martes");
@@ -25,6 +30,8 @@ public class Ejercicio1 {
         System.out.println("4: Jueves");
         System.out.println("5: Viernes");
         day = sc.nextInt();
+
+        // Process
         switch (day) {
             case 1:
                 subject = "Programación";
@@ -45,7 +52,11 @@ public class Ejercicio1 {
                 subject = "Has introducido un día no válido";
                 break;
         }
+
+        // Output results
         System.out.print((day >= 1 && day <= 5) ? "El día " + day + " de la semana toca " + subject : subject);
+
+        // Close scanner;
         sc.close();
     }
 }

@@ -15,16 +15,25 @@ import java.util.Scanner;
 
 public class Ejercicio19 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
         int cont;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número: ");
         num = sc.nextInt();
+
+        // Process
         cont = Integer.toString(Math.abs(num)).length();
         System.out
                 .print(cont > 5 ? "El número introducido tiene más de 5 dígitos" : num + " tiene " + cont + " dígitos");
         if (num < 0)
             System.out.print(" y es negativo");
+
+        // Close scanner
         sc.close();
     }
 }

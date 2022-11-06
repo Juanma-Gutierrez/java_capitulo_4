@@ -15,18 +15,25 @@ import java.util.Scanner;
 
 public class Ejercicio9 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int a;
         int b;
         int c;
         float res;
+        float raiz;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce el valor de a: ");
         a = sc.nextInt();
         System.out.print("Introduce el valor de b: ");
         b = sc.nextInt();
         System.out.print("Introduce el valor de c: ");
         c = sc.nextInt();
-        float raiz;
+
+        // Process
         raiz = (b * b - (4 * a * c));
         if (raiz >= 0 && 2 * a != 0) {
             res = (float) ((-b + (float) Math.sqrt(raiz)) / (2 * a));
@@ -36,6 +43,8 @@ public class Ejercicio9 {
         } else {
             System.out.print("La ecuación no tiene solución real");
         }
+
+        // Close scanner
         sc.close();
     }
 }

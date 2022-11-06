@@ -15,15 +15,23 @@ import java.util.Scanner;
 
 public class Ejercicio20 {
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
         int longNum;
         boolean cap;
         int neg;
+
+        // Var init
         cap = true;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número entero de hasta 5 dígitos de tamaño: ");
         num = sc.nextInt();
+
+        // Process
         longNum = Integer.toString(num).length();
         neg = (num < 0) ? 1 : 0;
         if (num > 99999 || num < -99999)
@@ -39,6 +47,7 @@ public class Ejercicio20 {
                 System.out.print(" y de signo negativo");
         }
 
+        // Close scanner
         sc.close();
     }
 }

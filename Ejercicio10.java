@@ -15,15 +15,24 @@ import java.util.Scanner;
 
 public class Ejercicio10 {
     public static void main(String[] arg) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int day;
         int month;
         String sign;
+
+        // Var init
+        sign = "";
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce el día de nacimiento: ");
         day = sc.nextInt();
         System.out.println("Introduce el número del mes de nacimiento:");
         month = sc.nextInt();
-        sign = "";
+
+        // Process
         switch (month) {
             case 1:
                 sign = day <= 20 ? "Capricornio" : "Acuario";
@@ -64,6 +73,8 @@ public class Ejercicio10 {
 
         }
         System.out.println("El signo zodiacal para alguien nacido el " + day + "/" + month + " es: " + sign);
+
+        // Close scanner
         sc.close();
     }
 }

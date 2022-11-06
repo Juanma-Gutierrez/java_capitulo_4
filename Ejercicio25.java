@@ -19,18 +19,27 @@ import java.util.Scanner;
 
 public class Ejercicio25 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int height;
         int width;
         float costEmblem;
         String emblem;
+
+        // Var init
         costEmblem = 0;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduzca la altura de la bandera en cm: ");
         height = sc.nextInt();
         System.out.print("Ahora introduzca la anchura: ");
         width = sc.nextInt();
         System.out.print("¿Quiere escudo bordado? (s/n): ");
         emblem = sc.next();
+
+        // Process
         System.out.println("Gracias. Aquí tiene el desglose de su compra.");
         System.out.printf("%-10s %5d %-8s %7.2f\n", "Bandera de", (height * width), "cm²:",
                 ((float) height * (float) width / 100));
@@ -44,6 +53,7 @@ public class Ejercicio25 {
         System.out.printf("%-25s %7.2f\n", "Gastos de envío:", 3.25);
         System.out.printf("%-25s %7.2f\n", "Total:", (((float) height * (float) width / 100) + costEmblem + 3.25));
 
+        // Close scanner
         sc.close();
     }
 

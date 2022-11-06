@@ -15,16 +15,22 @@ import java.util.Scanner;
 
 public class Ejercicio18 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int numInit;
         int num;
         int res;
         int newNum;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número entero: ");
         num = sc.nextInt();
         numInit = num;
         newNum = 0;
 
+        // Process
         if (num < 0)
             num *= (-1);
 
@@ -33,9 +39,12 @@ public class Ejercicio18 {
             newNum *= 10;
             newNum += res;
             num /= 10;
-
         } while (num > 0);
+
+        // Output results
         System.out.print("El primer dígito de " + numInit + " es " + newNum % 10);
+
+        // Close scanner
         sc.close();
     }
 }

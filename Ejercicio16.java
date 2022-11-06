@@ -46,10 +46,15 @@ import java.util.Scanner;
 public class Ejercicio16 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         char res;
         int sum;
         sum = 0;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.println("Test de infidelidad. Contesta a cada pregunta con v para verdadero o f para falso");
         System.out.println("---------------------------------------------------------------------------------");
         System.out.print("Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente (v/f): ");
@@ -103,6 +108,7 @@ public class Ejercicio16 {
         if (res == 'v')
             sum += 3;
 
+        // Output results
         if (sum <= 10)
             System.out.println("¡Enhorabuena! tu pareja parece ser totalmente fiel.");
         else if (sum <= 22)
@@ -111,6 +117,8 @@ public class Ejercicio16 {
         else
             System.out.println(
                     "Tu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona. Te aconsejamos que indagues un poco más y averigües que es lo que está pasando por su cabeza.");
+
+        // Close scanner
         sc.close();
     }
 }

@@ -21,14 +21,21 @@ import java.util.Scanner;
 
 public class Ejercicio23 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         float baseImp;
         String typeIVA;
         int iva;
         String codeProm;
         float discount;
+
+        // Var init
         iva = 0;
         discount = 0;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduzca la base imponible: ");
         baseImp = sc.nextFloat();
         System.out.print("Introduzca el tipo de IVA (general, reducido o superreducido): ");
@@ -36,6 +43,7 @@ public class Ejercicio23 {
         System.out.print("Introduzca el código promocional (nopro, mitad, meno5 o 5porc): ");
         codeProm = sc.next();
 
+        // Process
         switch (typeIVA) {
             case ("general"):
                 iva = 21;
@@ -62,6 +70,7 @@ public class Ejercicio23 {
                 break;
         }
 
+        // Output results
         System.out.printf("%-22s", "Base imponible");
         System.out.printf("%5.2f", baseImp);
         System.out.println();
@@ -77,6 +86,7 @@ public class Ejercicio23 {
         System.out.printf("%-22s", "TOTAL");
         System.out.printf("%5.2f", baseImp + (baseImp * iva / 100) + discount);
 
+        // Close scanner
         sc.close();
     }
 }

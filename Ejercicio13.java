@@ -14,16 +14,23 @@ import java.util.Scanner;
 
 public class Ejercicio13 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num1;
         int num2;
         int num3;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce el primer número: ");
         num1 = sc.nextInt();
         System.out.print("Introduce el segundo número: ");
         num2 = sc.nextInt();
         System.out.print("Introduce el tercer número: ");
         num3 = sc.nextInt();
+
+        // Process
         while ((num1 > num2) || (num2 > num3)) {
             int temp;
             if (num1 > num2) {
@@ -37,7 +44,11 @@ public class Ejercicio13 {
                 num3 = temp;
             }
         }
+
+        // Output results
         System.out.print("Los números ordenados quedan así: " + num1 + ", " + num2 + ", " + num3);
+
+        // Scanner close
         sc.close();
     }
 }

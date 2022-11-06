@@ -15,14 +15,23 @@ import java.util.Scanner;
 
 public class Ejercicio17 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número entero: ");
         num = sc.nextInt();
+
+        // Output results
         if (num >= 0)
             System.out.print("El último dígito de " + num + " es " + num % 10);
         else
             System.out.print("El último dígito de " + num + " es " + num % 10 * -1 + " y es negativo");
+
+        // Close scanner
         sc.close();
     }
 }

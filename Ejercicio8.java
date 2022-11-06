@@ -15,17 +15,24 @@ import java.util.Scanner;
 
 public class Ejercicio8 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         float num1;
         float num2;
         float num3;
         float res;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce la primera nota: ");
         num1 = sc.nextFloat();
         System.out.print("Introduce la segunda nota: ");
         num2 = sc.nextFloat();
         System.out.print("Introduce la tercera nota: ");
         num3 = sc.nextFloat();
+
+        // Output results
         res = (num1 + num2 + num3) / 3;
         System.out.print(
                 "La nota media de " + num1 + ", " + num2 + " y " + num3 + " es: "
@@ -40,6 +47,8 @@ public class Ejercicio8 {
             System.out.println("Notable");
         else if (res <= 10)
             System.out.println("Sobresaliente");
+
+        // Scanner close
         sc.close();
     }
 }

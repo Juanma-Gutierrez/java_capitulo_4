@@ -18,11 +18,17 @@ import java.util.Scanner;
 
 public class Ejercicio12 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int res;
         int points;
+
+        // Var init
         points = 0;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Process
         System.out.println("1- A los elementos físicos de un ordenador los llamamos:");
         System.out.println("1: Hardware");
         System.out.println("2: Software");
@@ -84,7 +90,10 @@ public class Ejercicio12 {
         res = sc.nextInt();
         points += (res == 1) ? 1 : 0;
 
+        // Output results
         System.out.print("Puntuación obtenida: " + points);
+
+        // Close scanner
         sc.close();
     }
 }

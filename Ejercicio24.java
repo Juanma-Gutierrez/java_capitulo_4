@@ -25,13 +25,17 @@ import java.util.Scanner;
 
 public class Ejercicio24 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int category;
         int days;
         int civilState;
         float baseSalary;
         float bruteSalary;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.println("Introduzca el cargo del empleado:");
         System.out.println("1: Prog. junior");
         System.out.println("2: Prog. senior");
@@ -42,11 +46,12 @@ public class Ejercicio24 {
         System.out.println("1: Soltero");
         System.out.println("2: Casado");
         civilState = sc.nextInt();
-        civilState = (civilState == 1) ? 25 : 20;
 
         System.out.print("¿Cuántos días ha estado de viaje visitando clientes?: ");
         days = sc.nextInt();
 
+        // Process
+        civilState = (civilState == 1) ? 25 : 20;
         switch (category) {
             case 1:
                 baseSalary = 950;
@@ -62,6 +67,8 @@ public class Ejercicio24 {
 
         }
         bruteSalary = (float) (baseSalary + (days * 30));
+
+        // Output data
         System.out.print("+---------------------------------+\n");
         System.out.printf("%-25s", "| Sueldo base");
         System.out.printf("%8.2f", baseSalary);
@@ -82,6 +89,7 @@ public class Ejercicio24 {
         System.out.println(" |");
         System.out.print("+---------------------------------+\n");
 
+        // Close scanner
         sc.close();
     }
 }

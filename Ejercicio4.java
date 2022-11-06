@@ -18,10 +18,17 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int hours;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Por favor, introduzca el número de horas trabajadas durante la semana: ");
         hours = sc.nextInt();
+
+        // Process
         if (hours <= 0)
             System.out.println("Has introducido un número de horas incorrecto");
         else {
@@ -32,6 +39,8 @@ public class Ejercicio4 {
                         "El sueldo semanal que le corresponde es de " + ((40 * 12) + ((hours - 40) * 16)) + " euros");
             }
         }
+
+        // Close scanner
         sc.close();
     }
 }

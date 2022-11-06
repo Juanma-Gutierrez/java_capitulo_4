@@ -20,7 +20,7 @@ import java.util.Scanner;
 
 public class Ejercicio27 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         float cost;
         String flavour1;
         String flavour2;
@@ -28,17 +28,26 @@ public class Ejercicio27 {
         String name;
         float creamCost;
         float nameCost;
+
+        // Var init
         cost = 0;
         creamCost = 0;
         nameCost = 0;
         flavour1 = "";
         flavour2 = "";
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Elija un sabor (manzana, fresa o chocolate): ");
         flavour1 = sc.next();
         if (flavour1.equals("chocolate")) {
             System.out.print("¿Qué tipo de chocolate quiere? (negro o blanco): ");
             flavour2 = sc.next();
         }
+
+        // Process
         switch (flavour1) {
             case "manzana":
                 cost = 18;
@@ -77,6 +86,8 @@ public class Ejercicio27 {
         }
 
         System.out.printf("%-30s %7.2f\n", "Total:", (cost + creamCost + nameCost));
+
+        // Close scanner
         sc.close();
     }
 

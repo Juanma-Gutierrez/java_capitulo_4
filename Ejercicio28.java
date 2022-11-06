@@ -16,16 +16,24 @@ import java.util.Scanner;
 
 public class Ejercicio28 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         String play1;
         String play2;
         String res;
+
+        // Var init
+        res = "";
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Turno del jugador 1 (introduzca piedra, papel o tijera): ");
         play1 = sc.next();
         System.out.print("Turno del jugador 2 (introduzca piedra, papel o tijera): ");
         play2 = sc.next();
-        res = "";
 
+        // Process
         if (((!play1.equals("piedra"))
                 && (!play1.equals("papel"))
                 && (!play1.equals("tijera")))
@@ -60,6 +68,8 @@ public class Ejercicio28 {
             System.out.print(res);
 
         }
+
+        // Close scanner
         sc.close();
     }
 }

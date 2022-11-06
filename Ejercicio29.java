@@ -19,7 +19,7 @@ import java.util.Scanner;
 
 public class Ejercicio29 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         String order;
         String pitufo;
         String drink;
@@ -28,11 +28,17 @@ public class Ejercicio29 {
         String foodOut;
         String drinkOut;
 
+        // Var init
         costFood = 0;
         costDrink = 0;
         drink = "";
         foodOut = "";
         drinkOut = "";
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("¿Qué ha tomado de comer? (palmera, donut o pitufo): ");
         order = sc.next();
 
@@ -64,10 +70,12 @@ public class Ejercicio29 {
             drinkOut = "Café";
         }
 
+        // Output data
         System.out.printf("%-20s %6.2f\n", foodOut, costFood);
         System.out.printf("%-20s %6.2f\n", drinkOut, costDrink);
         System.out.printf("%-20s %6.2f", "Total desayuno:", costFood + costDrink);
 
+        // Close scanner
         sc.close();
     }
 }
